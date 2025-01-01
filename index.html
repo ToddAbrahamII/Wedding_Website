@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Add Google Fonts link for cursive style -->
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wedding Website</title>
+        <link rel="stylesheet" type="text/css" href="Home.CSS">
+    </head>
+    
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="RSVP.HTML">RSVP</a></li>
+            <li><a href="#venue">Venue/Directions</a></li>
+            <li><a href="#itinerary">Itinerary</a></li>
+            <li><a href="#accommodations">Accommodations</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-image">
+        <img src="home_header.JPG" alt="Wedding Top Image">
+        <div class="hero-title">
+            <h1>Ellen & Todd</h1>
+        </div>
+    </section>
+    
+    <!-- Event Details Section below the Hero Image -->
+    <section class="event-details">
+        <p class="date">06 | 13 | 2026</p>
+        <p class="Venue">Renwick Mansion</p>
+        <p class="address">901 Tremont Ave Davenport, IA 52803</p>
+        <img src="header_icon.png" alt="Wedding Icon">
+        <p class="welcome">Welcome!</p>
+        <p class="welcome-paragraph">Insert Welcome Paragraph Here!</p>
+    </section>
+
+    <!--RSVP Section-->
+    <section class ="rsvp" id="rsvp">
+        <p class="welcome">Ready to RSVP?</p><br><br>
+        <a href="RSVP.HTML">
+            <button class="rsvp-button">Click Here to RSVP</button>
+        </a>
+    </section>
+
+    <!--Our Venue Section-->
+    <section class="Venue_Info" id="venue">
+        <p class="welcome">Welcome to Our Venue</p>
+        <div class="venue-details">
+            <img src="Renwick_Image.png" alt="Our Venue" class="venue-image">
+            <div class="venue-description">
+                <p>The home was built by William Renwick, who took over a lumber/sawmill business founded by his father, James, an immigrant from England.  The mansion is Davenport’s finest example of Italian Revival Villa architecture. The home features a large Fourth-story tower that overlooks Davenport and the Mississippi River, amazing wooden trim and 12-14 foot doors, 8 bedrooms available for rent, 8 fireplaces, a 3 story staircase, a limestone exterior and it sits on 4 acres in the heart of Davenport. In 1907, the mansion became part of St. Katharine’s School, and in 1973 was sold and became part of a nursing home complex. Although it was listed on the National Register of historic places in 1983, the home fell into disrepair. The ailing complex was purchased by a historic property developer in 1997, who renovated the St. Katherine’s location and the Renwick House. In 2007, the Renwick was updated with geothermal and opened to the public as a wedding reception venue and bed and breakfast.  After closing in 2016 the Renwick House was opened once again in 2017 as a premier location for weddings, receptions, reunions, parties and meetings.
+
+                </p>
+                <p class="map-instruction">Click on the icon below to see Location in Google Maps</p>
+                <div class="map-link">
+                    <a href="https://maps.app.goo.gl/Edk3EeP2CosetW1V8" target="_blank">
+                        <img src="map_marker.png" alt="Map to Venue" class="map-thumbnail">
+                    </a>
+                
+                </div>
+            </div>
+        </div>
+        
+    </section>   
+
+    <!--Iteneray Section-->
+    <section class="itinerary" id="itinerary">
+        <p class="welcome">Itinerary</p>
+        <div class="event-list">
+            <div class="event-row">
+                <img src="pictures_icon.png" alt="Pictures Icon" class="event-image">
+                <div class="itinerary-details">
+                    <h3 class="event-name">Pictures</h3>
+                    <p class="event-time">3:00 PM</p>
+                </div>
+            </div>
+            <div class="event-row">
+                <img src="ceremony_icon.png" alt="Ceremony Icon" class="event-image">
+                <div class="itinerary-details">
+                    <h3 class="event-name">Ceremony</h3>
+                    <p class="event-time">4:30 PM</p>
+                </div>
+            </div>
+            <div class="event-row">
+                <img src="toast_icon.png" alt="Reception Icon" class="event-image">
+                <div class="itinerary-details">
+                    <h3 class="event-name">Wedding Toast</h3>
+                    <p class="event-time">5:30 PM</p>
+                </div>
+            </div>
+            <div class="event-row">
+                <img src="dinner_icon.png" alt="Reception Icon" class="event-image">
+                <div class="itinerary-details">
+                    <h3 class="event-name">Dinner</h3>
+                    <p class="event-time">6:00 PM</p>
+                </div>
+            </div>
+            <div class="event-row">
+                <img src="first_dance_icon.png" alt="Reception Icon" class="event-image">
+                <div class="itinerary-details">
+                    <h3 class="event-name">First Dance</h3>
+                    <p class="event-time">6:30 PM</p>
+                </div>
+            </div>
+            <div class="event-row">
+                <img src="desert_icon.png" alt="Reception Icon" class="event-image">
+                <div class="itinerary-details">
+                    <h3 class="event-name">Cake/Desert</h3>
+                    <p class="event-time">7:00 PM</p>
+                </div>
+            </div>
+            <div class="event-row">
+                <img src="shuttle_bus_icon.png" alt="Reception Icon" class="event-image">
+                <div class="itinerary-details">
+                    <h3 class="event-name">Shuttle Bus Leaves</h3>
+                    <p class="event-time">8:00 PM & 9:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Accomadations (Shuttle Bus, Places to Stay)-->
+    <section class="accommodations" id="accommodations">
+        <div class="accomdation-headers">
+            <p class="welcome">Accommodations</p> <br>
+            <p class = "welcome">--Hotels Near the Venue--</p> <br> <br>
+        </div>
+    
+        <div class="accommodation-item">
+            <div class="accommodation-info">
+                <h3>4 - Star Hotel : Hotel Blackhawk</h3>
+                <p>Room Block: Yes <br> Shuttle-Bus: Yes</p>
+                <a href="https://maps.google.com/?q=Hotel+Blackhawk" target="_blank">
+                    <button>Directions</button>
+                </a>
+                <a href="https://www.marriott.com/en-us/hotels/mliak-hotel-blackhawk-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0" target="_blank">
+                    <button>Reserve</button>
+                </a>
+            </div>
+            <div class="accommodation-image">
+                <img src="hotel_blackhawk.jpg" alt="Hotel Blackhawk">
+            </div>
+        </div>
+    
+        <div class="accommodation-item">
+            <div class="accommodation-info">
+                <h3>4 - Star Hotel : The Current Iowa</h3>
+                <p>Room Block: No <br> Shuttle-Bus: No</p>
+                <a href="https://www.google.com/maps/place/The+Current+Iowa,+Autograph+Collection/@41.5250397,-90.5698142,16z/data=!3m1!5s0x87e2349d10296da3:0x59e684b14e7e0a38!4m9!3m8!1s0x87e2349d07c651db:0xbf2d14dde3f2c705!5m2!4m1!1i2!8m2!3d41.5217813!4d-90.5753334!16s%2Fg%2F11g02br31w?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <button>Directions</button>
+                </a>
+                <a href="https://www.marriott.com/en-us/hotels/mliaq-the-current-iowa-autograph-collection/overview/" target="_blank">
+                    <button>Reserve</button>
+                </a>
+            </div>
+            <div class="accommodation-image">
+                <img src="the_current_iowa.jpg" alt="The Current Iowa">
+            </div>
+        </div>
+    
+        <div class="accommodation-item">
+            <div class="accommodation-info">
+                <h3>3 - Star Hotel : DoubleTree by Hilton Davenport</h3>
+                <p>Room Block: No <br> Shuttle-Bus: No</p>
+                <a href="https://www.google.com/maps/place/DoubleTree+by+Hilton+Davenport/@41.5250397,-90.5698142,16z/data=!4m9!3m8!1s0x87e235e1d016fd2b:0x9060db71ba2c497f!5m2!4m1!1i2!8m2!3d41.5211049!4d-90.5733433!16s%2Fg%2F11p74swfg_?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <button>Directions</button>
+                </a>
+                <a href="https://www.hilton.com/en/locations/usa/iowa/davenport/doubletree-by-hilton/?WT.mc_id=zlada0ww1dt2psh3ggl4advbpp5dkt6multibr7_153659867_1003528&gad_source=1&gclid=Cj0KCQiAvbm7BhC5ARIsAFjwNHstnHXwzrzLjnBjsQUWNx8BsczK5v0v0XYR3BWyqGIijjCms5TPsWAaAu2REALw_wcB&gclsrc=aw.ds#" target="_blank">
+                    <button>Reserve</button>
+                </a>
+            </div>
+            <div class="accommodation-image">
+                <img src="doubletree.jpeg" alt="DoubleTree by Hilton Davenport">
+            </div>
+        </div>
+    </section>
+    
+
+        <!--FAQs-->
+    <section class ="faqs" id="faqs">
+        <p class="welcome">Frequently Asked Questions</p>
+        
+        <div class="faq-info">
+            <h3 class="faq-header">Will there be parking onsite?</h3>
+            <p class="faq-p">Yes the venue will have parking with signs to direct where to park.</p>
+
+            <h3 class="faq-header">Will there be a dress code?</h3>
+            <p class="faq-p">--Insert Dress Code--</p>
+
+            <h3 class="faq-header">More Questions?</h3>
+            <p class="faq-p">--Answer Here--</p>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Ellen & Todd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
