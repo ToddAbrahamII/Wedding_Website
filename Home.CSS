@@ -47,7 +47,7 @@ nav ul li a:hover {
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    margin: -10em 0 2em 0; /* Remove the top margin and add slight overlap */
+    margin: -5em 0 2em 0; /* Remove the top margin and add slight overlap */
     height: 80vh; /* Adjust height to take up 80% of the viewport height */
     width: 100%; /* Ensure it takes full width */
     position: relative; /* Allows overlapping with the navbar */
