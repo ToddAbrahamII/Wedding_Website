@@ -50,7 +50,7 @@ nav ul li a:hover {
     margin: -10em 0 2em 0; /* Remove the top margin and add slight overlap */
     height: 80vh; /* Adjust height to take up 80% of the viewport height */
     width: 100%; /* Ensure it takes full width */
-    position: fixed; /* Allows overlapping with the navbar */
+    position: relative; /* Allows overlapping with the navbar */
     z-index: 999; /* Ensure it's above other content */
     background: none; /* Ensure no background */
 }
