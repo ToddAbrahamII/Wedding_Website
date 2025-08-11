@@ -61,7 +61,7 @@ nav ul li a:hover {
     max-width: 550px; /* Adjust the max width */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure the image covers the area without distortion */
-    border-radius: 60%; /* Create the oval shape */
+    border-radius: 80%; /* Create the oval shape */
     box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
 }
 
