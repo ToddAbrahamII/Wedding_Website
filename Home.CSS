@@ -50,7 +50,7 @@ nav ul li a:hover {
     margin: -10em 0 2em 0; /* Remove the top margin and add slight overlap */
     height: 80vh; /* Adjust height to take up 80% of the viewport height */
     width: 100%; /* Ensure it takes full width */
-    position: relative; /* Allows overlapping with the navbar */
+    position: fixed; /* Allows overlapping with the navbar */
     z-index: 999; /* Ensure it's above other content */
     background: none; /* Ensure no background */
 }
@@ -58,7 +58,7 @@ nav ul li a:hover {
 /* Image Styling */
 .hero-image img {
     width: 100%; /* Adjust image width */
-    max-width: 750px; /* Adjust the max width */
+    max-width: 550px; /* Adjust the max width */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure the image covers the area without distortion */
     border-radius: 60%; /* Create the oval shape */
