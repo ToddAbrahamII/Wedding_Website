@@ -58,7 +58,7 @@ nav ul li a:hover {
 /* Image Styling */
 .hero-image img {
     width: 100%; /* Adjust image width */
-    max-width: 950px; /* Adjust the max width */
+    max-width: 750px; /* Adjust the max width */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure the image covers the area without distortion */
     border-radius: 60%; /* Create the oval shape */
